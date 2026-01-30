@@ -131,6 +131,83 @@
 #     n= n//10
 # print(even_digit)
 # print(odd_digit)            
-                
+        
+# 12. Write a program to check whether a number contains a specific digit (for example,5)      
             
+# n = int(input("Enter a number: "))
+# search = 5   # digit to find
+# count = 0
 
+# while n > 0:
+#     digit = n % 10
+    
+#     if digit == search:
+#         count += 1
+    
+#     n = n // 10
+
+# if count > 0:
+#     print("Digit found in the number")
+# else:
+#     print("Digit not found in the number")
+
+# 13. Write a program to calculate the sum of even digits and sum of odd digits separately
+# using a while loop.
+
+# n = int(input("enter any number = "))
+# evensum = 0
+# oddsum = 0
+# while n!=0:
+#     digit = n%10
+#     if digit!=0:
+#         if digit%2==0:
+#             evensum = evensum+digit
+#         else:
+#             oddsum = oddsum+digit
+#     n = n//10
+# print("even digit sum is ",evensum)
+# print("odd digit sum",oddsum)                
+
+# 14. Write a program to create a new number by squaring each digit of a given number using
+# a while loop.
+
+# 15. Write a program to check whether a number is a perfect number using a while loop.
+
+# num = int(input("Enter a number: "))
+# i = 1
+# sum_div = 0
+
+# while i < num:          # changed condition
+#     if num % i == 0:
+#         sum_div = sum_div + i
+#     i = i + 1
+
+# if sum_div == num:
+#     print("Perfect number")
+# else:
+#     print("Not a perfect number")
+
+# 16. Write a program to print the Fibonacci series up to N terms using a while loop.
+
+# 17. Write a program to find the factorial of a number using a while loop.
+
+# n = int(input("enter any fact = "))
+# product  = 1
+# while n!=0:
+#     product = product *n
+#     n-=1
+# print(product)    
+    
+# 18. Write a program to calculate the power of a number (a^b) using a while loop.
+ 
+# a = int(input("enter any number = "))
+# b = int(input("enter any number = "))
+# result = 1
+# while b!=0:
+#     result = result*a
+#     b-=1
+# print(result)    
+        
+# 19. Write a program to find the GCD of two numbers using a while loop.
+
+# 20. Write a program to check whether a number is prime using a while loop.
