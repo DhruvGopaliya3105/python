@@ -137,7 +137,7 @@
 # s = "red blue green yellow".split(' ')
 # print(s)
 
-# 8. Join ["10", "20", "30"] using , to form a string.
+#  Join ["10", "20", "30"] using , to form a string.
 
 # s = ["10","20","30"]
 # print((' ').join(s))

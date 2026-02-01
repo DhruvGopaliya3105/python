@@ -50,7 +50,7 @@
 # sum = 0
 # for i in range(1,101):
 #     sum+=i
-#     print(sum)
+# print(sum)
   
 
 # 11. Find the sum of even numbers from 1 to 50 using for and range.
@@ -59,8 +59,8 @@
 # for i in range(1,51):
 #     if i%2==0:
 #         sum+=i
-        # print(sum)
-# print(sum)
+        # print(sum)   individual sum
+# print(sum)   for direct sum that is why it is outside the loop
 
 # 12. Print the table of 7 using for and range.
 # for i in range(1,11):

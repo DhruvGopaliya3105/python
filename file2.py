@@ -101,13 +101,13 @@
 # ch = input("enter any character = ")                  
 # alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # vowel = 'aeiou'
-# if(ch==alphabet):
-#     if(alphabet==vowel):
-        # print("vowel")                (method 2 for this) 
+# if(ch in alphabet):
+#     if(alphabet in vowel):
+#         print("vowel")                
 #     else:
 #         print("consonant")
 # else:
-#     print("invalid input")    
+    # print("invalid input")    
 
   # 7. Write a program using nested if to check whether a person is eligible for a
 # job based on age, and if eligible, check whether they have the required
@@ -329,7 +329,7 @@
 # 23. Write a program using elif to check the result of a student: Distinction, First
 # Class, Second Class, Pass, or Fail.
 
-# marks = int(input("enter marks"))         #(distincion means topper of the class aove all)
+# marks = int(input("enter marks"))         #(distincion means topper of the class above all)
 # if(marks<0 or  marks>100):
 #     print("status: invalid marks")
 # elif(marks>80):

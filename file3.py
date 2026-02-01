@@ -28,7 +28,7 @@
 # print(f"the sum is {sum}")
 
 # 3.n = int(input("enter number = "))
-# print(f"your entered {n}")
+# print(f"you entered {n}")
 
 # 4.firstname = input("enter firstname = ")
 # lastname = input("enter lastname = ")

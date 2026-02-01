@@ -2,9 +2,8 @@
 # n = int(input("enter any number = "))
 # while n!=0:
 #     digit = n%10
-   
-#     n = n//10
 #     print(digit)
+#     n = n//10      
   
 
 # 2. Write a program to find the sum of digits of a number using a while loop.
@@ -12,13 +11,14 @@
 # n = int(input("enter any number = "))
 # sum = 0
 # while n!=0:
-#     sum = sum + (n%10)
+#     digit = n%10
+#     sum = sum + digit
 #     n = n//10
 # print(sum)    
 
 # 3. Write a program to count how many digits are in a given number using a while loop.
 
-# int(input("enter any number = "))
+# n = int(input("enter any number = "))
 # count = 0
 # while n!=0:
 #     count+=1
@@ -30,7 +30,8 @@
 # n = int(input("enter any number = "))
 # rev = 0
 # while n!=0:
-#     rev = rev*10 + n%10
+#     digit = n%10
+#     rev = rev*10 + digit
 #     n = n//10
 # print(rev)    
 
@@ -189,6 +190,19 @@
 
 # 16. Write a program to print the Fibonacci series up to N terms using a while loop.
 
+# n = int(input("Enter number of terms: "))
+
+# a = 0
+# b = 1
+# count = 0
+
+# while count < n:
+#     print(a, end=" ")
+#     c = a + b
+#     a = b
+#     b = c
+#     count += 1
+
 # 17. Write a program to find the factorial of a number using a while loop.
 
 # n = int(input("enter any fact = "))
@@ -210,4 +224,26 @@
         
 # 19. Write a program to find the GCD of two numbers using a while loop.
 
-# 20. Write a program to check whether a number is prime using a while loop.
+# a = int(input("enter any number = "))
+# b = int(input("enter any number = "))
+# while b!=0:
+#     r = a%b
+#     a =b
+#     b = r
+#     print("gcd is ",a)
+
+# 20. Write a program to check whether a number is prime using a while loop.= int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
+
+# i = 2
+# count = 0
+
+# while i <= n:
+#     if n % i == 0:
+#         count += 1
+#     i += 1
+
+# if count == 1:
+#     print("Prime number")
+# else:
+    # print("Not prime")
