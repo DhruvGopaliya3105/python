@@ -310,6 +310,7 @@
 #    discount = ammount*0.05
 # elif ammount>5000 and ammount<10000:
 #     discount = ammount*0.10
+
 # else:
 #     discount = ammount*0.15
 
