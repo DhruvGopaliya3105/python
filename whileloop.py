@@ -233,17 +233,18 @@
 #     print("gcd is ",a)
 
 # 20. Write a program to check whether a number is prime using a while loop.= int(input("Enter a number: "))
-# n = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 
-# i = 2
-# count = 0
+i = 2
+count = 0
 
-# while i <= n:
-#     if n % i == 0:
-#         count += 1
-#     i += 1
 
-# if count == 1:
-#     print("Prime number")
-# else:
-    # print("Not prime")
+while i <= n:
+    if n % i == 0:
+        count += 1
+    i += 1
+
+if count == 1:
+    print("Prime number")
+else:
+    print("Not prime")
