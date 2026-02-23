@@ -3,7 +3,19 @@
 # while n!=0:
 #     digit = n%10
 #     print(digit)
-#     n = n//10      
+#     n = n//10    
+
+# n= 1234
+# reverse = 0
+# while n!=0:
+#     digit = n%10
+#     reverse = reverse*10+digit
+#     n = n//10                     if you want to straight print
+# # print(reverse)    
+# while reverse!=0:
+#     digit = reverse%10
+#     print(digit) 
+#     reverse//=10  
   
 
 # 2. Write a program to find the sum of digits of a number using a while loop.
@@ -48,7 +60,21 @@
 # if n==rev:
 #     print("it is palindrome")
 # else:
-#     print("it is not a palindrome")        
+#     print("it is not a palindrome")  
+
+# or to know more palindrome 
+
+for i in range(100,201):
+    temp = i
+    original = 0
+    while temp!=0:
+        digit = temp%10
+        original = original*10+digit
+        temp = temp//10
+    if i==original:
+        print("its a palindrome baby",i)
+    else:
+        print("sorry baby ",i)
 
 # 6. Write a program to find the product of digits of a number using a while loop.
 
@@ -69,7 +95,17 @@
 #     if digit>largest:
 #         largest = digit
 #     n = n//10
-# print(largest)    
+# print(largest)   
+
+# nums = [123, 89, 4567]
+# largest = 0                  #using list for more number using each digit check
+# for num in nums:
+#     while num != 0:
+#         digit = num % 10
+#         if digit > largest:
+#             largest = digit
+#         num //= 10
+# print("Largest digit:", largest) 
         
 # 8. Write a program to find the smallest digit in a number using a while loop.   
 
@@ -84,27 +120,38 @@
 
 # 9. Write a program to check whether a number is an Armstrong number using a while loop.
 
-# n = int(input("enter any number = "))
-# sum = 0
-# temp =n
-# while temp!=0:
+# n = 153
+# sum = 0                                                 
+# temp =n                       for specific digit in limit that we already know whom to check
+# while temp!=0:                1**3+5**3+3**3==n (separate digit then sum of all digit)
 #     digit = temp%10
 #     sum = sum + (digit**3)
 #     temp = temp//10
 # if n == sum:
 #     print("its a armstrong number ")  
 # else:
-#     print("not a armstrong number ")      
+#     print("not a armstrong number ") 
+
+
+# for i in range(151,201):
+                            #   for one by one check not for specific number
+#     temp=i
+#     sum = 0
+#     while temp!=0:
+#         digit = temp%10
+#         sum = sum +(digit**3)
+#         temp//=10
+#     if i==sum:
+#         print("it is a armstrong",i)
+#     else:
+#         print(" not",i)             
 
 # 10. Write a program to remove all zeros from a number using a while loop.
-
-
 
 # n = int(input("Enter a number: "))
 
 # new_num = 0
 # place = 1
-
 # while n != 0:
 #     digit = n % 10
 #     if digit != 0:
@@ -139,7 +186,7 @@
 # search = 5   # digit to find
 # count = 0
 
-# while n > 0:
+# while n != 0:
 #     digit = n % 10
     
 #     if digit == search:
@@ -175,7 +222,7 @@
 # 15. Write a program to check whether a number is a perfect number using a while loop.
 
 # num = int(input("Enter a number: "))
-# i = 1
+# i = 1                               divisor sum is equal to the number 
 # sum_div = 0
 
 # while i < num:          # changed condition
@@ -196,7 +243,7 @@
 # b = 1
 # count = 0
 
-# while count < n:
+# while count <n:
 #     print(a, end=" ")
 #     c = a + b
 #     a = b
@@ -230,21 +277,41 @@
 #     r = a%b
 #     a =b
 #     b = r
-#     print("gcd is ",a)
+# print("gcd is ",a)
 
-# 20. Write a program to check whether a number is prime using a while loop.= int(input("Enter a number: "))
-n = int(input("Enter a number: "))
+# 20. Write a program to check whether a number is prime using a while loop.
+# n = int(input("Enter a number: "))
 
-i = 2
-count = 0
+# i = 2
+# count = 0
 
 
-while i <= n:
-    if n % i == 0:
-        count += 1
-    i += 1
+# while i <=n:
+#     if n % i == 0:
+#         count += 1
+#     i += 1
 
-if count == 1:
-    print("Prime number")
-else:
-    print("Not prime")
+# if count == 1:
+#     print("Prime number")
+# else:
+#     print("Not prime")
+
+# for i in range(100,201):
+    
+#     p =2
+#     count = 0
+#     while p<=i:                for find more number put in range
+#         if i%p==0:
+#             count+=1
+#         p+=1
+#     if count==1:
+#         print("prime number ",i)
+#     else:
+#         print("not prime",i)            
+    
+    
+    
+    
+    
+    
+    

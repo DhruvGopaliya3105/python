@@ -48,9 +48,9 @@
 # 10. Print numbers from 1 to 30 but skip multiples of 4.
 
 # for i in range(1,31):
-    # if i%4==0:
-    #     continue
-# print(i)
+#     if i%4==0:
+#         continue
+#     print(i)
 
 # 11. Print numbers from 1 to 50 and stop the loop when the number becomes 25 using
 # break.

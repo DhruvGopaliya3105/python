@@ -6,7 +6,7 @@
 # 2. From s = "DataScience", slice and print "Science".
 
 # s = 'DataScience'
-# print(s[4:11])
+# print(s[4:])
 
 # 3. Given s = "MachineLearning", slice and print "Machine".
 

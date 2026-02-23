@@ -30,7 +30,7 @@
 # 7. Extract every second character from the string.
 
 # s = "PythonProgramming"
-# print(s[::2])
+# print(s[0::2])
 
 # 8. Remove the first 3 characters using slicing.
 
@@ -119,9 +119,9 @@
 # print(date)
 
 # 4. Join the list ["I", "love", "Python"] into a single sentence with spaces.
-#
+
 # list = ["I","love","python"]
-# print( (' ').join(list))
+# print((' ').join(list))
 
 # 5. Join ["a", "b", "c"] using - between them.
 
