@@ -30,10 +30,10 @@
 # print(sum)    
   
 # li = [1,2,3,4]  
-# res = 0
+# sum  = 0
 # for ele in li:
-#   res = res + ele
-# print(res)  
+#   sum = sum + ele
+# print(sum)  
 
 
 # li = [1,2,3,4]
@@ -53,7 +53,18 @@
 #   else:
 #     li2.append(li[i])
 # print("even",li1)
-# print("odd",li2)    
+# print("odd",li2) 
+
+# li = [1,2,3,4,5]
+# even= []
+# odd = []
+# for ele in li:
+#     if ele%2==0:
+#         even.append(ele)
+#     else:
+#         odd.append(ele)
+# print(even)
+# print(odd)               
 
 
 # basic starts
@@ -61,6 +72,12 @@
 # li = [1,2,3,4,5]
 # for i in range(len(li)):
 #     print(li[i]) 
+
+# li = [1,2,3,4]
+# for ele in li:
+#     print(ele)
+
+
 
 # li = [1,3.5,"dhruv"]
 # for i in range(len(li)):
@@ -193,13 +210,26 @@
 # li = [1,12,13,14,15,4,5,22]
 # largest_number = li[0]
 # smallest_number = li[0]
-# # for i in range(len(li)):        direct largest or smallest from the list
+# for i in range(len(li)):       # direct largest or smallest from the list
 #     if li[i] >largest_number:
 #         largest_number=li[i]
 #     elif li[i]<smallest_number :
 #         smallest_number=li[i] 
 # print("largestnumber is = ",largest_number)
 # print("smallest_number is = ",smallest_number) 
+
+
+
+li = [1,12,13,14,15,4,5,22]
+largest = 0
+smallest = 23
+for ele in li:
+    if ele>largest:
+        largest=ele
+    elif ele<smallest:
+        smallest=ele
+print(largest)
+print(smallest)            
 
 
  

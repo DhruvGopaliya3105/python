@@ -19,6 +19,18 @@
 #         print(i,end=" ")
 #     print(" ")  
 
+
+# 1  
+# 2 1  
+# 3 2 1  
+# 4 3 2 1 
+
+# for i in range(1,5):
+#     for j in range(i,0,-1):
+#         print(j,end=" ")
+#     print(" ")    
+
+
 # 4  
 # 3 3
 # 2 2 2
@@ -516,9 +528,4 @@
 #         print(chr(65+j-1),end=" ")
 #     print(" ")                  
 
-li = [1,2,3,4]
-li.reverse()
-print(li)
-
-li = [1,2,3,4]
-print(li[::-1])
+       

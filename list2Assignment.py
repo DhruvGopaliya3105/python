@@ -48,13 +48,13 @@
 # Output:
 # [3, 5, 8]
 
-#  nums = [3,-1,5,-7,8,-2]
+# nums = [3,-1,5,-7,8,-2]
 # newli= []
 # for i in range(len(nums)):    # len start from 1 to last 
 #     if nums[i]>0: # if it is greater then 0 then its append bcz i want to remove the negative no
 #         newli.append(nums[i])
 #     else:
-#         continue              if it is negative then skip that value
+#         continue              if it is negative then skip tha!t value
 # print(newli)        
 
 
@@ -75,10 +75,10 @@
 # num1 = []
 # for i in range(len(nums)-1,-1,-1): # -1 bcz len is 5 but index upto 4   using slicing
 #     num1.append(nums[i])
-#     if num1==nums:
-#         print("its a palindrome")   # in this inside the loop its check after evry value then it shows not a palindrome
-#     else:
-#         print("not a palindrome") 
+#     # if num1==nums:
+#     #     print("its a palindrome")   # in this inside the loop its check after evry value then it shows not a palindrome
+#     # else:
+#     #     print("not a palindrome") 
 # if num1==nums:
 #     print("it is a palindrome")    # outer loop means after covering all the iteration it shows result 
 # else:
@@ -117,6 +117,8 @@
 #             print(nums[i],nums[j])
 
 
+
+
 # 6 Problem Statement: Merge two lists into one and remove duplicate elements.
 # Input:
 # list1 = [1, 2, 3]
@@ -148,5 +150,13 @@
 #     if nums[i]==target:
 #         newli.append(i)
 # print(newli) 
+
+# Problem 8 Statement: Rotate the list one position to the left. The first element moves to the end.
+# Input:
+# nums = [10, 20, 30, 40, 50]
+# Output:
+# [20, 30, 40, 50, 10]
+
+
 
        

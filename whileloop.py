@@ -64,17 +64,26 @@
 
 # or to know more palindrome 
 
-for i in range(100,201):
-    temp = i
-    original = 0
-    while temp!=0:
-        digit = temp%10
-        original = original*10+digit
-        temp = temp//10
-    if i==original:
-        print("its a palindrome baby",i)
-    else:
-        print("sorry baby ",i)
+# for i in range(100,201):
+#     temp = i
+#     original = 0
+#     while temp!=0:
+#         digit = temp%10
+#         original = original*10+digit
+#         temp = temp//10
+#     if i==original:
+#         print("its a palindrome baby",i)
+#     else:
+#         print("sorry baby ",i)
+
+# about string palindrome
+# n1  = "naman"  
+# n2 = n1[::-1]
+# print(n2)
+# if n1==n2:
+#     print("its a palindrome") 
+# else:
+#     print("its not a  palindrome") 
 
 # 6. Write a program to find the product of digits of a number using a while loop.
 
@@ -99,12 +108,12 @@ for i in range(100,201):
 
 # nums = [123, 89, 4567]
 # largest = 0                  #using list for more number using each digit check
-# for num in nums:
-#     while num != 0:
+# for i in nums:
+#     while i != 0:
 #         digit = num % 10
 #         if digit > largest:
 #             largest = digit
-#         num //= 10
+#         i //= 10
 # print("Largest digit:", largest) 
         
 # 8. Write a program to find the smallest digit in a number using a while loop.   
@@ -271,7 +280,7 @@ for i in range(100,201):
         
 # 19. Write a program to find the GCD of two numbers using a while loop.
 
-# a = int(input("enter any number = "))
+# a = int(input("enter any number = "))  #always put higher than b
 # b = int(input("enter any number = "))
 # while b!=0:
 #     r = a%b
@@ -293,23 +302,37 @@ for i in range(100,201):
 
 # if count == 1:
 #     print("Prime number")
-# else:
-#     print("Not prime")
+# # else:
+# #     print("Not prime")
 
-# for i in range(100,201):
+# # for i in range(100,201):
     
-#     p =2
+# #     p =2
+# #     count = 0
+# #     while p<=i:                #for find more number put in range
+# #         if i%p==0:
+# #             count+=1
+# #         p+=1
+# #     if count==1:
+# #         print("prime number ",i)
+# #     else:
+# #         print("not prime",i)  
+
+# for i in range(100,0,-1):         # prime number for 100 to 1
+#     p = 2
 #     count = 0
-#     while p<=i:                for find more number put in range
+#     while p<=i:
 #         if i%p==0:
 #             count+=1
 #         p+=1
 #     if count==1:
-#         print("prime number ",i)
+#         print("prime number",i)
 #     else:
-#         print("not prime",i)            
-    
-    
+#         print("not a prime n",i)   
+
+
+
+   
     
     
     

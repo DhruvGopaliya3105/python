@@ -145,4 +145,73 @@
 # 9. Split "user@gmail.com" to separate username and domain.
 # 10. Join ["2026", "01", "21"] into a date format 2026/01/21.
 # s = ["2026","01","21"]
-# print(('/').join(s))
+# print(('/').join(s))str = "this is the sentence"
+
+# words = str.split()   # convert sentence into list of words
+# largest = ""
+
+# for w in words:
+#     if len(w) > len(largest):
+#         largest = w
+
+# print("Largest word:", largest)
+# ✅ Output
+# Largest word: sentence
+# 🧠 Dry Run
+
+# Sentence:
+
+# "this is the sentence"
+
+# After split:
+
+# ['this', 'is', 'the', 'sentence']
+
+# Step-by-step:
+
+# word	length	largest
+# this	4	this
+# is	2	this
+# the	3	this
+# sentence	8	sentence
+# 
+# 
+# sent = "this is the sentence"
+# words = sent.split()
+
+# max_len = 0
+# index = 0
+
+# for i in range(len(words)):
+#     if len(words[i]) > max_len:
+#         max_len = len(words[i])
+#         index = i
+# print("largest word",words[index])        
+
+
+
+
+
+# Input:  "this is a sentence"
+# Output: "siht si a ecnetnes"
+# by split method
+# n = "this is a sentence"
+# words = n.split()
+# result = " "
+
+# for w in words:
+#     result = result + w[::-1] + " "
+
+# print(result)
+
+
+# Step 1: After split
+# words = ['this', 'is', 'a', 'sentence']
+# result = ""
+# Step 2: Loop Dry Run Table
+# Iteration	w (current word)	w[::-1] (reversed)	result before	result after
+# Start	       –	                       –	     ""	              ""
+# 1	       this	                 siht	              ""          	"siht "
+# 2	        is	                 si	                "siht "	      "siht si "
+# 3	        a	                 a	                "siht si "	    "siht si a "
+# 4	       sentence	             ecnetnes	       "siht si a "	 "siht si a ecnetnes "

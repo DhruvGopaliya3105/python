@@ -11,26 +11,6 @@
 #         print(li[i][j])
 
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
 # li = [[1,2,3],[4,5,6]]
 # for j in range(len(li[0])):        # column loop    j start from 0 bcz it is column wise
 #     for i in range(len(li)):       # row loop
@@ -39,10 +19,12 @@
 # 3 Find the sum of all elements in a 2D list.
 # li = [[1,2,3],[4,5,6]]
 # sum = 0
-# for i in range(len(li)):
-#     for j in range(len(li[i])):
-#         sum  = sum+ (li[i][j])
-# print(sum)  
+# for i in li:
+#     for j in i:
+#         sum+=j
+# print(sum)        
+    
+
 
 # li = [[1,2,3],[4,5,6]]
 # sum = 0
@@ -78,7 +60,16 @@
 #     for j in range(len(li[i])):
 #         if li[i][j]<minl:
 #             minl=li[i][j] 
-# print(minl)             
+# print(minl) 
+
+# li = [[1,2,3],[4,5,6]]
+# minl= 10
+# for i in li:
+#     for j in i:
+#         if j<minl:
+#             minl=j
+# print(minl)            
+            
 
 # 6 Count total number of elements in a 2D list.
 
@@ -150,11 +141,15 @@
 # n = [number for number in i1 if number>10]
 # print(n)
 
-# generate the list of odd numbers from 100 t0 1
+# # generate the list of odd numbers from 100 t0 1
+# li = [x for x in range(100,0,-1) if x%2!=0]
+# print(li)
+
 
 # in shallow copy the preference of the outer objexts are different and inner objexts references ae same.
 
 # in deep copy the nested object are also copied it doesnot change 
+
 
 
        
